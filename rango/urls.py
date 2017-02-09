@@ -4,5 +4,5 @@ from rango import views #imports the views module from rango
 
 urlpatterns = [
     url(r'^$', views.index, name='index'), #handles the remaining URL string and map the empty string to the index view
-    url(r'^about/',views.about,name='index')
+    url(r'^about/',views.about,name='about')
 ]
